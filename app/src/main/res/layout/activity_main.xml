@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3">
+
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="330dp"
+        android:layout_height="89dp"
+        android:layout_marginBottom="20dp"
+        android:background="#353535"
+        android:backgroundTint="#BE0052EF"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="ENTER YOUR TEXT....."
+        android:inputType="textPersonName"
+        android:textColor="#D3D3D3"
+        android:textColorHint="#FFFCFC"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/t1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="356dp"
+        android:layout_height="286dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.569"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t1"
+        app:layout_constraintVertical_bias="0.113">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/radioselector"
+            android:button="@android:color/transparent"
+            android:checked="true"
+            android:elevation="10dp"
+            android:text="ENGLISH"
+            android:textAlignment="center"
+            android:textColor="@drawable/textcolor"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/radioselector"
+            android:button="@android:color/transparent"
+            android:checked="true"
+            android:elevation="10dp"
+            android:text="FRENCH"
+            android:textAlignment="center"
+            android:textColor="@drawable/textcolor"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/radioselector"
+            android:button="@android:color/transparent"
+            android:checked="false"
+            android:elevation="10dp"
+            android:text="ITALIAN"
+            android:textAlignment="center"
+            android:textColor="@drawable/textcolor"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/radioselector"
+            android:button="@android:color/transparent"
+            android:checked="false"
+            android:elevation="10dp"
+            android:text="JAPANESE"
+            android:textAlignment="center"
+            android:textColor="@drawable/textcolor"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/radioselector"
+            android:button="@android:color/transparent"
+            android:checked="false"
+            android:elevation="10dp"
+            android:text="CHINESE"
+            android:textAlignment="center"
+            android:textColor="@drawable/textcolor"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/radioselector"
+            android:button="@android:color/transparent"
+            android:checked="true"
+            android:elevation="10dp"
+            android:text="KOREAN"
+            android:textAlignment="center"
+            android:textColor="@drawable/textcolor"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="288dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="84dp"
+        android:backgroundTint="#8B0E1617"
+        android:text="TAP TO SPEAK!"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/t1"
+        android:layout_width="337dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#8B0E1617"
+        android:gravity="center"
+        android:text="SELECT A LANGUAGE..."
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.372"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="244dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#BE0052EF"
+        android:text="STOP"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="80dp"
+        android:layout_height="56dp"
+        android:background="@drawable/custombutton1"
+        android:src="@drawable/img_6"
+        app:layout_constraintBottom_toTopOf="@+id/et1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
