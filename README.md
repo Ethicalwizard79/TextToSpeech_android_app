@@ -1,7 +1,3 @@
-# Text-to-speech_android_app
-Text to speech technology is crucial for enhancing accessibility, providing auditory support for individuals with visual impairments or reading difficulties. It enables multitasking by allowing users to listen to written content while engaging in other activities. This technology aids in language learning by offering accurate pronunciation and diverse accents. It also serves as a tool for content creators, making their work more inclusive and widely available. Overall, text to speech contributes to a more accessible and efficient digital experience.
-
----
 
 ## TEXT TO SPEECH
 
